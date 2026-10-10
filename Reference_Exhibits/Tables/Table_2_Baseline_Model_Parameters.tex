@@ -1,0 +1,52 @@
+\begin{table}[ht!]
+  \centering
+  \caption{Baseline Model Parameters}
+  \label{tab:calib}
+  \resizebox{0.9\textwidth}{!}{%
+    \begin{tabular}{lllll}
+      \toprule
+      \multicolumn{2}{c}{Parameter Name} & Symbol & \multicolumn{2}{c}{Value} \\
+      & & & Home & Foreign \\
+      \midrule
+      \multicolumn{5}{l}{\textit{Panel A: Externally Set}} \\
+      & Country Size & $rs$ & 0.271 & 0.729 \\
+      & Discount Factor & $\beta$ & 0.9841 & See Panel B \\
+      & Risk Aversion & $\sigma_c$ & 2 & 2 \\
+      & Steady-State Productivity (Normalization) & $e^z$ & 1 & 1 \\
+      & Home Bias & $\gamma^C$ & 0.656 & See Panel B \\
+      & EOS, Home and Foreign Goods & $\eta^C$ & 6 & 6 \\
+      & EOS, Tradable and Non-Tradable Goods & $\phi^T$ & 0.500 & 0.500 \\
+      & Share of Tradables in Consumption & $\alpha^T$ & 0.790 & 0.790 \\
+      & Matching Elasticity & $\eta$ & 0.500 & 0.500 \\
+      & Workers' Bargaining Power & $\zeta$ & 0.500 & 0.500 \\
+      & Recruiting Curvature, Tradable & $\chi_T$ & 1 & 1 \\
+      & Investment Adjustment Cost & $\psi_I$ & 8.700 & 8.700 \\
+      & Capital Depreciation & $\delta$ & 0.030 & 0.030 \\
+      & Weight on Capital in Production & $\alpha$ & 0.330 & 0.330 \\
+      & Productivity (SS) & $e^z$ & 1 & 1 \\
+     & Number of Short-Term Asset-Holding States & $K$ & 8 & 8 \\
+      &  Replacement Rate, Short-Term Unemployed & $rr^s$ & 0.600 & 0.600 \\
+      & Replacement Rate, Long-Term Unemployed & $rr^l$ & 0.500 & 0.500 \\
+      & Persistence of Lump-Sum Tax & $\rho^\tau$ & 0.800 & 0.800 \\
+      & Elasticity of Tax Rate to Debt Deviations & $\chi^b$ & 0.050 & 0.050 \\
+      & Target Government Debt to Output Ratio & $\omega^b$ & 0.600 & 0.600 \\
+      & Share of Assets Retained by Employed Family Pool & $\tau^F$ & 0.800 & 0.800 \\
+%      & Additional Asset-Withholding Wedge & $\tau^A$ & 0 & 0 \\
+      & Pre-Reform Steady-State Lump-Sum Tax & $\bar\tau$ & 0 & 0 \\
+      & Job-Filling Rate (Vacancy-Scale Normalization) & $q$ & 0.700 & 0.700 \\
+      \midrule
+      \multicolumn{5}{l}{\textit{Panel B: Calibrated Internally}} \\
+      & Discount Factor & $\beta_F$ & See Panel A & 0.9840 \\
+      & Home Bias & $\gamma_F^C$ & See Panel A & 0.871 \\
+      & Recruiting Curvature, Non-Tradable & $\chi_N$ & 3.500 & 3.500 \\
+      & Recruiting Cost Scale, Tradable & $\kappa^{\upsilon}_T$ & 4.338 & 5.019 \\
+      & Recruiting Cost Scale, Non-Tradable & $\kappa^{\upsilon}_N$ & 5.177 & 5.993 \\
+      & Matching Efficiency & $\kappa^e$ & 0.285 & 0.275 \\
+      & Separation Rate & $s$ & 0.0128 & 0.0129 \\
+      \bottomrule
+    \end{tabular}%
+  }
+  \begin{flushleft}
+  \footnotesize \textit{Notes:} The frequency is quarterly. Panel A lists parameters set outside the model, from data or the literature. Panel B lists parameters implied by steady-state and transition targets, normalizations, and equilibrium conditions. The non-tradable recruiting curvature $\chi_N$ is calibrated jointly with the replacement-rate cut to the sectoral employment targets. The foreign discount factor matches the zero pre-reform net foreign asset position of the home country.
+  \end{flushleft}
+\end{table}
